@@ -1,0 +1,28 @@
+\usepackage{fancyhdr}
+\RequirePackage[margin=.5in, top=.5in, bottom=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{fontawesome}
+
+\fancypagestyle{fancy}{
+\fancyhf{}
+\lhead{
+\LARGE\bf \textcolor{BlueViolet}\name \vspace{0.25em}\\
+\large\role \vspace{0.25em}\\
+\normalsize \color{MidnightBlue}{\faMapMarker} \hspace{0.15cm} \textcolor{MidnightBlue} \location . \vspace{0.25em}
+}
+\chead{
+ \includegraphics[scale=0.05]{./images/resume_image.png}
+ \vspace{0.15em}
+}
+\rhead{
+\href{mailto:\mail}{\mail}\hspace{0.25cm}\color{highlight}{\faEnvelope}\vspace{0.15em} \\
+\href{tel: +91\phone}{9676975489}\hspace{0.25cm} \color{highlight}{\faPhone} \\
+\href{https://\linkedin}{\linkedin} \hspace{0.25cm}\color{highlight}{\faLinkedin} \\
+\href{https://\github}{\github} \hspace{0.25cm}\color{highlight}{\faGithub} \\
+}
+}
+
+\pagestyle{fancy}
+
+\setlength{\headheight}{90pt}
+\setlength{\headsep}{5pt}
